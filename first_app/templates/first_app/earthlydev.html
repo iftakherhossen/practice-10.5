@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Earthly Dev Exercises</title>
+</head>
+<body>
+    <h2>
+        <a href="/first_app/">First App / Home</a>
+    </h2>
+    <h2>
+        <a href="/first_app/geeksforgeeks/">First App / Geeks For Geeks Exercise</a>
+    </h2>
+    <h2>
+        <a href="/first_app/earthlydev/">First App / Earthly Dev Exercises</a>
+    </h2>
+
+    <h1>This is Earthly Dev Exercises Page.</h1>
+
+    <h3>Join: {{list | join:" // "}}</h3>
+    <h3>Date Filter: {{ birthday | date:"D d M Y" }}</h3>
+    <h3>Short_Date_Format: {{ birtday | date:"Short_Date_Format"}}</h3>
+    <h3>Default Filter: {{ emptyTxt | default:"nothing here" }}</h3>
+    <h3>Add Filter: {{ age | add:"5" }}</h3>
+    <h3>Capfirst Filter: {{ farmework | capfirst }}</h3>
+    <h3>Cut Filter: {{ txt | cut:" " }}</h3>
+    <h3>Dictsort Filter: {{ courses | dictsort:"name" }}</h3>
+    <h3>FIrst FIlter: {{ list | first }}</h3>
+    <h3>Last Filter: {{ books | last }}</h3>
+    <h3>Linenumbers Filter: {{ num | linenumbers }}</h3>
+    <h3>Lower Filter: {{ lower | lower }}</h3>
+    <h3>Upper Filter: {{ lower | title }}</h3>
+    <h3>Title Filter: {{ lower | title }}</h3>
+    <h3>Random Filter: {{ books | random }}</h3>
+    <h3>Slice Filter: {{ list | slice:":2" }}</h3>
+    <h3>Time Filter: {{ birthday | time:"H:i" }}</h3>
+    <h3>Timesince Filter: {{ pub_date | timesince:birthday }}</h3>
+    <h3>Truncatewords Filter: {{ desc | truncatewords:12 }}</h3>
+    <h3>Wordcount Filter: {{ desc | wordcount }}</h3>
+    <h3>Make_List Filter: {{ str | make_list }}</h3>
+</body>
+</html>

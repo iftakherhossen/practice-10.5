@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geeks For Geeks Exercises</title>
+</head>
+<body>
+    <h2>
+        <a href="/first_app/">First App / Home</a>
+    </h2>
+    <h2>
+        <a href="/first_app/geeksforgeeks/">First App / Geeks For Geeks Exercises</a>
+    </h2>
+    <h2>
+        <a href="/first_app/earthlydev/">First App / Earthly Dev Exercises</a>
+    </h2>
+
+    <h1>This is Geeks for Geeks Exercises Page.</h1>    
+    <h3>Add: {{ age | add:"2" }}</h3>
+    <h3>Addslashes: {{ txt | addslashes }}</h3>
+    <h3>Capfirst: {{ txt | capfirst }}</h3>
+    <h3>Center: {{ txt | center:"15" }}</h3>
+    <h3>Cut: {{ txt | cut:" " }}</h3>
+    <h3>Date: {{ birthday | date:"D d M Y" }}</h3>
+    <h3>Default: {{ emptyTxt | default:"nothing" }}</h3>
+    <h3>Dictsort: {{ courses | dictsort:"name" }}</h3>
+    <h3>Divisibleby: {{ age | divisibleby:"3" }}</h3>
+    <h3>First: {{ books | first }}</h3>
+    <h3>Join: {{ books | join:" // " }}</h3>
+    <h3>Last: {{ books | last }}</h3>
+    <h3>Length: {{ list | length }}</h3>
+    <h3>Linenumbers: {{ num | linenumbers }}</h3>
+    <h3>Lower: {{ lower | lower }}</h3>
+    <h3>Make List: {{ author | make_list }}</h3>
+    <h3>Random: {{ books | random }}</h3>
+    <h3>Slice: {{ list | slice:"2" }}</h3>
+    <h3>Slugify: {{ lower | slugify }}</h3>
+    <h3>Time: {{ birthday | time:"H:i" }}</h3>
+    <h3>Timesince: {{ pub_date | timesince:birthday }}</h3>
+    <h3>Title: {{ lower | title }}</h3>
+    <h3>Unordered List: {{ list_2 | unordered_list }}</h3>
+    <h3>Upper: {{ lower | upper }}</h3>
+    <h3>Wordcount: {{ desc | wordcount }}</h3>
+</body>
+</html>
